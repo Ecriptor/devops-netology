@@ -12,3 +12,4 @@
 
 5. Файлы заканчивающиеся на .terraformrc и файл с именем terraform.rc
 
+# git fix
