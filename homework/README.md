@@ -9,8 +9,8 @@
 8.
 9.
 10.
-11. [X]
-12. [x]
-13. [04-script-01-bash](https://github.com/Ecriptor/devops-netology/tree/master/homework/04-script-01-bash)
-14.
-15.
+11. - [x] 
+12. - [x] 
+13. - [x] [04-script-01-bash](https://github.com/Ecriptor/devops-netology/tree/master/homework/04-script-01-bash)
+14. - [ ]
+15. - [ ]
