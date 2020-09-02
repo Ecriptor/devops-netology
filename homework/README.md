@@ -1,13 +1,13 @@
 # Домашние работы по курсу DevOps Netology
-1.  
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9. - [x] 
+1. - [x] test  
+2. - [x] test
+3. - [x] test
+4. - [x] test
+5. - [x] test
+6. - [x] test
+7. - [x] test
+8. - [x] test
+9. - [x] test
 10. - [x] 03-sysadmin-05-net
 11. - [x] 03-sysadmin-06-net
 12. - [x] 03-sysadmin-07-security
