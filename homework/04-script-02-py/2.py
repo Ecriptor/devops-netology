@@ -4,7 +4,7 @@ import os
 
 bash_command = ["cd /home/ecriptor/devops-netology", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
-print(result_os)
+#:print(result_os)
 is_change = False
 for result in result_os.split('\n'):
         if result.find('modified') != -1:
