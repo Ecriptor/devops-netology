@@ -2,12 +2,12 @@
 
 import os
 
-bash_command = ["cd /home/ecriptor/devops-netology", "git status"]
+git_repo_dir = '/home/ecriptor/devops-netology/'
+bash_command = ["cd "+git_repo_dir, "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
-#:print(result_os)
 is_change = False
 for result in result_os.split('\n'):
-        if result.find('modified') != -1:
-         prepare_result = result.replace('\tmodified:   ', '')
-         print(prepare_result)
-         break
+    if result.find('изменено') != -1:
+        prepare_result = git_repo_dir + result.replace('\tизменено:      ', '')
+        print(prepare_result)
+#        break
