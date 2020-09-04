@@ -1,7 +1,3 @@
-# Ответы на вопросы по домашнему заданию 04-script-03-yaml
-1. Ex1
-* Верный формат, необходимо все значения взять в ""
-```
 { "info" : "Sample JSON output from our service\t",
     "elements" :[
         { "name" : "first",
@@ -14,7 +10,3 @@
          }
     ]
 }
-
-```
-2. Ex2
-3. Ex3
