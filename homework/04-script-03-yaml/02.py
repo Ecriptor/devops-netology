@@ -1,22 +1,3 @@
-# Ответы на вопросы по домашнему заданию 04-script-03-yaml
-1. Ex1
-* Верный формат, необходимо все значения взять в ""
-```
-{ "info" : "Sample JSON output from our service\t",
-    "elements" :[
-        { "name" : "first",
-        "type" : "server",
-        "ip" : "7175"
-         },
-         { "name" : "second",
-         "type" : "proxy",
-         "ip" : "71.78.22.43"
-         }
-    ]
-}
-```
-2. Ex2
-``` python
 #!/usr/bin/env python3
 
 import os
@@ -42,7 +23,7 @@ elif os.path.exists(sys.argv[1]) is True and sys.argv[1] == "host_ip.yaml":
         host_ip_dict = yaml.safe_load(file)
 else:
     host_ip_dict = {host:'0.0.0.0' for host in hostnames}
-
+    
 # Производим проверку из словаря
 new_dict = host_ip_dict.copy()
 for host in hostnames:
@@ -61,7 +42,3 @@ if new_dict != host_ip_dict:
             json.dump(new_dict, file)
         elif sys.argv[1] == "host_ip.yaml":
             yaml.dump(new_dict, file)
-
-
-```
-3. Ex3

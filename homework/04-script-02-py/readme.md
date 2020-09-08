@@ -67,7 +67,6 @@ else:
     host_ip_dict = {host:'0.0.0.0' for host in hostnames}
 
 # Производим проверку из словаря
-new_dict = {}
 new_dict = host_ip_dict.copy()
 for host in hostnames:
     ip = socket.gethostbyname(host)
