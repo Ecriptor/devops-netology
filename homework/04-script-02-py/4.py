@@ -5,7 +5,7 @@ import socket
 
 # указывем наши URL сервиса
 hostnames = ["drive.google.com", "mail.google.com", "google.com"]
-# из созданного файла вычитываем связку URL - IP в словарь, если файла нет создаем словарь с известными IP для URL
+# из созданного файла вычитываем связку URL - IP в словарь, если файла нет генерим словарь.
 if os.path.exists("host_ip.txt"):
     host_ip_dict = {}
 
@@ -15,7 +15,7 @@ if os.path.exists("host_ip.txt"):
             ip = line.split(" - ")[1]
             host_ip_dict[host] = ip.replace('\n', '')
 else:
-    host_ip_dict = {'drive.google.com': '64.233.162.194', 'mail.google.com': '173.194.73.19', 'google.com': '64.233.161.100'}
+    host_ip_dict = {host:'0.0.0.0' for host in hostnames}
     
 # Производим проверку из словаря
 new_dict = {}
@@ -35,4 +35,3 @@ if new_dict != host_ip_dict:
         for key, value in new_dict.items():
             out = out+key+' - '+value+"\n"
         file.write(out)
-
