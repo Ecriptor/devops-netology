@@ -9,16 +9,16 @@ import yaml
 # указывем наши URL сервиса
 hostnames = ["drive.google.com", "mail.google.com", "google.com"]
 # из созданного файла вычитываем связку URL - IP в словарь, если файла нет генерим словарь.
-# Проверяем, что введено имя файла
-if len(sys.argv) < 2:
-    print("Введите имя файла host_ip.json или host_ip.yaml")
+# Проверяем, что введено имя файла и оно либо JSON, YML, YAML
+if len(sys.argv) < 2 or not (sys.argv[1].find('.yaml') != -1 or sys.argv[1].find('.yml') != -1 or sys.argv[1].find('.json') != -1) :
+    print("Выберите файл JSON или YAML")
     exit(0)
-# Проверяем, что это файл JSON
-elif os.path.exists(sys.argv[1]) is True and sys.argv[1] == "host_ip.json":
+# Проверяем, что это файл JSON и он не пустой
+elif os.path.exists(sys.argv[1]) is True and sys.argv[1].find('.json') != -1 and os.stat(sys.argv[1]).st_size != 0 :
     with  open(sys.argv[1], "r") as file:
         host_ip_dict = json.load(file)
-# Проверяем что файл YAML
-elif os.path.exists(sys.argv[1]) is True and sys.argv[1] == "host_ip.yaml":
+# Проверяем что файл имеет имя YAML или YML и он не пустой
+elif os.path.exists(sys.argv[1]) is True and (sys.argv[1].find('.yaml') != -1 or sys.argv[1].find('.yml') != -1) and os.stat(sys.argv[1]).st_size != 0 :
     with  open(sys.argv[1], "r") as file:
         host_ip_dict = yaml.safe_load(file)
 else:
@@ -38,7 +38,7 @@ for host in hostnames:
 out = ""
 if new_dict != host_ip_dict:
     with open(sys.argv[1], "w") as file:
-        if sys.argv[1] == "host_ip.json":
+        if sys.argv[1].find('.json') != -1:
             json.dump(new_dict, file)
-        elif sys.argv[1] == "host_ip.yaml":
+        elif sys.argv[1].find('.yaml') != -1 or sys.argv[1].find('.yml') != -1 :
             yaml.dump(new_dict, file)
