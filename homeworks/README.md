@@ -1,4 +1,5 @@
 # Домашние работы по курсу DevOps Netology
+## Домашние задания по курсу «DevOps и системное администрирование»
 1. - [x] test  
 2. - [x] test
 3. - [x] test
@@ -14,4 +15,7 @@
 13. - [x] [04-script-01-bash](https://github.com/Ecriptor/devops-netology/tree/master/homework/04-script-01-bash)
 14. - [x] [04-script-02-py](https://github.com/Ecriptor/devops-netology/tree/master/homework/04-script-02-py)
 15. - [x] [04-script-03-yaml](https://github.com/Ecriptor/devops-netology/tree/master/homework/04-script-03-yaml)
+
+## Домашние задания по курсу «Виртуализация, базы данных и Terraform»
+1. - [ ] [05-virt-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homework/05-virt-01-basics)
 
