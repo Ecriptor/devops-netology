@@ -17,5 +17,7 @@
 15. - [x] [04-script-03-yaml](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/04-script-03-yaml)
 
 ## Домашние задания по курсу «Виртуализация, базы данных и Terraform»
-1. - [ ] [05-virt-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-01-basics)
+1. - [x] [05-virt-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-01-basics)
+2. - [ ] [05-virt-02-control-systems](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-02-control-systems)
+3. - [ ] [05-virt-03-docker-usage](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-03-docker-usage)
 
