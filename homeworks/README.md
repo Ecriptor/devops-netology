@@ -18,6 +18,9 @@
 
 ## Домашние задания по курсу «Виртуализация, базы данных и Terraform»
 1. - [x] [05-virt-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-01-basics)
-2. - [ ] [05-virt-02-control-systems](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-02-control-systems)
-3. - [ ] [05-virt-03-docker-usage](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-03-docker-usage)
+2. - [x] [05-virt-02-control-systems](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-02-control-systems)
+3. - [x] [05-virt-03-docker-usage](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-03-docker-usage)
+4. - [ ] [05-virt-04-docker-practical-skills](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-04-docker-practical-skills)
+5. - [ ] [06-db-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-01-basics)
+6. - [ ] [06-db-02-sql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-02-sql)
 
