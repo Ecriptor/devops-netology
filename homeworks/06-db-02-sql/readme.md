@@ -144,8 +144,42 @@ test_db=# \dp clients
 
 
 ## Задача 3
-pass
+Используя SQL синтаксис - наполните таблицы следующими тестовыми данными:
+
+Таблица orders
 ```
+INSERT INTO orders(id,"наименование","цена") VALUES(1,'Шоколад', 10);
+INSERT INTO orders(id,"наименование","цена") VALUES (2,'Принтер', 3000);
+INSERT INTO orders(id,"наименование","цена") VALUES (3,'Книга', 500);
+INSERT INTO orders(id,"наименование","цена") VALUES (4,'Монитор', 7000);
+INSERT INTO orders(id,"наименование","цена") VALUES (5,'Гитара', 4000);
+```
+Таблица clientspass
+```
+INSERT INTO clients(id,"фамилия","страна проживания") VALUES (1,'Иванов Иван Иванович','USA');
+INSERT INTO clients(id,"фамилия","страна проживания") VALUES (2,'Петров Петр Петрович', 'Canada');
+INSERT INTO clients(id,"фамилия","страна проживания") VALUES (3,'Иоганн Себастьян Бах', 'Japan');
+INSERT INTO clients(id,"фамилия","страна проживания") VALUES (4,'Ронни Джеймс Дио', 'Russia');
+INSERT INTO clients(id,"фамилия","страна проживания") VALUES (5,'Ritchie Blackmore', 'Russia');
+```
+Используя SQL синтаксис - вычислите количество записей в каждой таблице и приведите в ответе запрос и получившийся результат.
+```
+test_db=# select count(*) from orders ;
+ count 
+-------
+     5
+(1 row)
+
+test_db=# select count(*) from clients ;
+ count 
+-------
+     5
+(1 row)
+
 ```
 ## Задача 4
-
+pass
+## Задача 5
+pass
+## Задача 6
+pass
