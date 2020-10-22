@@ -21,7 +21,7 @@ CMD ["Hey, netology"]
 
 ```
 * Screenshot
-![Screenshot](/ex3_ponysay_screenshot.png)
+![Screenshot](/homeworks/05-virt-04-docker-practical-skills/ex3_ponysay_screenshot.png)
 
 * Ссылка на репозиторий с образом
 [https://hub.docker.com/r/ecriptor/ponysay-centos](https://hub.docker.com/r/ecriptor/ponysay-centos)
