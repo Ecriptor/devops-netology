@@ -20,7 +20,7 @@ ENTRYPOINT ["/usr/bin/ponysay"]
 CMD ["Hey, netology"]
 
 ```
-* Screenshot
+* Screenshot<br>
 ![Screenshot](/homeworks/05-virt-04-docker-practical-skills/ex3_ponysay_screenshot.png)
 
 * Ссылка на репозиторий с образом
