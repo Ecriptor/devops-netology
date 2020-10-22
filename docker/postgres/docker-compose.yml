@@ -1,0 +1,13 @@
+version: '3'
+services:
+  postgres-server:
+    container_name: postgres12
+    image: postgres:12.4
+    volumes:
+      - "/db-data:/var/lib/postgresql/data"
+      - "/db-backup:/db_backup"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
