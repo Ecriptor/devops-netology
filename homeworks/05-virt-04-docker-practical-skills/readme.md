@@ -21,9 +21,8 @@ CMD ["Hey, netology"]
 
 ```
 * Screenshot
-```
-pass
-```
+![Screenshot](/ex3_ponysay_screenshot.png)
+
 * Ссылка на репозиторий с образом
 [https://hub.docker.com/r/ecriptor/ponysay-centos](https://hub.docker.com/r/ecriptor/ponysay-centos)
 
