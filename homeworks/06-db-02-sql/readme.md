@@ -154,7 +154,7 @@ INSERT INTO orders(id,"наименование","цена") VALUES (3,'Книг
 INSERT INTO orders(id,"наименование","цена") VALUES (4,'Монитор', 7000);
 INSERT INTO orders(id,"наименование","цена") VALUES (5,'Гитара', 4000);
 ```
-Таблица clientspass
+Таблица clients
 ```
 INSERT INTO clients(id,"фамилия","страна проживания") VALUES (1,'Иванов Иван Иванович','USA');
 INSERT INTO clients(id,"фамилия","страна проживания") VALUES (2,'Петров Петр Петрович', 'Canada');
