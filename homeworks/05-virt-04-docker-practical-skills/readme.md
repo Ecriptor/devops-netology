@@ -45,7 +45,7 @@ CMD ["java", "-jar", "/usr/lib/jenkins/jenkins.war"]
 
 Сам контейнер на основе amazoncorreto можно запустить вот так!
 ```
-docker run -d --name httpd -p 8080:8080 ecriptor/jenkins:ver1
+docker run -d --name jenkins-srv -p 8080:8080 ecriptor/jenkins:ver1
 ``` 
 
 
@@ -69,11 +69,23 @@ CMD ["systemctl", "start", "jenkins"]
 
 Сам контейнер на основе ubuntu можно запустить вот так!
 ```
-docker run -d --name httpd -p 8080:8080 ecriptor/jenkins:ver2
+docker run -d --name jenkins-srv -p 8080:8080 ecriptor/jenkins:ver2
 ``` 
 
 ## Задача 3
 
+* Dockerfile с npm приложением
 ```
-pass
+FROM node
+WORKDIR "/nodejs"
+RUN git clone https://github.com/simplicitesoftware/nodejs-demo.git . && \
+    npm install
+EXPOSE 3000
+CMD ["npm", "start", "0.0.0.0"]
 ```
+Скриншот списка docker сетей<br>
+![Screenshot](/homeworks/05-virt-04-docker-practical-skills/ex3_docker_network.png)
+
+Скриншот вызова утилиты curl<br>
+![Screenshot](/homeworks/05-virt-04-docker-practical-skills/ex3_docker_curl.png)
+
