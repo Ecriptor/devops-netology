@@ -20,7 +20,10 @@
 1. - [x] [05-virt-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-01-basics)
 2. - [x] [05-virt-02-control-systems](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-02-control-systems)
 3. - [x] [05-virt-03-docker-usage](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-03-docker-usage)
-4. - [ ] [05-virt-04-docker-practical-skills](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-04-docker-practical-skills)
-5. - [ ] [06-db-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-01-basics)
+4. - [x] [05-virt-04-docker-practical-skills](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/05-virt-04-docker-practical-skills)
+5. - [x] [06-db-01-basics](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-01-basics)
 6. - [ ] [06-db-02-sql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-02-sql)
-
+7. - [ ] [06-db-03-mysql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-03-mysql)
+8. - [ ] [06-db-04-postgresql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-04-postgresql)
+9. - [ ] [06-db-05-elasticsearch](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-05-elasticsearch)
+9. - [ ] [06-db-06-troobleshooting](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-06-troobleshooting)
