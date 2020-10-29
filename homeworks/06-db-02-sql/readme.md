@@ -197,6 +197,65 @@ SELECT "фамилия" FROM clients WHERE "заказ" IS NOT NULL ;
 (3 rows)
 ```
 ## Задача 5
-pass
+Получите полную информацию по выполнению запроса выдачи всех пользователей из задачи 4 (используя директиву EXPLAIN).<br>
+Приведите получившийся результат и объясните что значат полученные значения.
+```
+EXPLAIN SELECT "фамилия" FROM clients WHERE "заказ" IS NOT NULL;
+```
+```
+                       QUERY PLAN                       
+--------------------------------------------------------
+ Seq Scan on clients  (cost=0.00..1.05 rows=3 width=33)
+   Filter: ("заказ" IS NOT NULL)
+(2 rows)
+
+Seq Scan -- последовательное сканирование
+cost=0.00 -- стоимость запуска
+cost=1.05 -- общая стоимость
+rows=3 -- ожидаемое число строк
+width=33 -- средний размер строк в байтах
+Filter -- для каждой строки выполняется данное условие
+```
+
 ## Задача 6
-pass
+Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. Задачу 1).
+```
+pg_dump test_db -U postgres > /db_backup/test_db_backup.sql
+```
+Остановите контейнер с PostgreSQL (но не удаляйте volumes).
+```
+docker-compose stop
+```
+Поднимите новый пустой контейнер с PostgreSQL.<br>
+Создаем новый docker-compose файл для другого экземплра postgres изменяем volume для data
+
+```
+version: '3'
+services:
+  postgres-server2:
+    container_name: postgres12_2
+    image: postgres:12.4
+    volumes:
+      - "/db-data2:/var/lib/postgresql/data"
+      - "/db-backup:/db_backup"
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+```
+```
+docker-compose up -d
+```
+Восстановите БД test_db в новом контейнере.<br>
+Приведите список операций, который вы применяли для бэкапа данных и восстановления.
+```
+postgres=# create database db_test ;
+CREATE DATABASE
+postgres=# create user "test-simple-user" with password 'password' ;
+CREATE ROLE
+postgres=# create user "test-admin-user" with password 'password' ;
+CREATE ROLE
+psql -U postgres -d db_test -f /db_backup/test_db_backup.sql
+```
+Это как один из  вариантов бекапа, еще можно ипользовать pg_basebackup или можно копированием volume.
