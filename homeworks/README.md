@@ -26,7 +26,7 @@
 7. - [x] [06-db-03-mysql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-03-mysql)
 8. - [x] [06-db-04-postgresql](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-04-postgresql)
 9. - [ ] [06-db-05-elasticsearch](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-05-elasticsearch)
-10. - [x ] [06-db-06-troobleshooting](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-06-troobleshooting)
+10. - [x] [06-db-06-troobleshooting](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/06-db-06-troobleshooting)
 11. - [x] [07-terraform-01-intro](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-01-intro)
 12. - [ ] [07-terraform-02-syntax](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-02-syntax)
 13. - [ ] [07-terraform-03-basic](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-03-basic)

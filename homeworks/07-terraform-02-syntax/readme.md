@@ -27,7 +27,7 @@ AWS предоставляет достаточно много бесплатн�
 
 В виде результата задания приложите вывод команды `aws configure list`.
 ```
-~/   master ✚ ● ?  aws configure list
+~/# aws configure list
       Name                    Value             Type    Location
       ----                    -----             ----    --------
    profile                <not set>             None    None
