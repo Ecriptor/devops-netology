@@ -31,5 +31,5 @@
 12. - [ ] [07-terraform-02-syntax](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-02-syntax)
 13. - [ ] [07-terraform-03-basic](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-03-basic)
 14. - [ ] [07-terraform-04-teamwork](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-04-teamwork)
-15. - [ ] [07-terraform-05-golang](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-05-golang)
-16. - [ ] [07-terraform-06-providers](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-06-providers)
+15. - [x] [07-terraform-05-golang](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-05-golang)
+16. - [x] [07-terraform-06-providers](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-06-providers)
