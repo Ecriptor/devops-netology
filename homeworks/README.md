@@ -33,3 +33,10 @@
 14. - [ ] [07-terraform-04-teamwork](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-04-teamwork)
 15. - [x] [07-terraform-05-golang](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-05-golang)
 16. - [x] [07-terraform-06-providers](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/07-terraform-06-providers)
+
+
+## Домашние задания по курсу «CI, мониторинг и управление конфигурациями»
+1. - [ ] [08-ansible-01](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
+2. - [ ] [08-ansible-02](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
+3. - [ ] [08-ansible-03](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
+4. - [ ] [08-anible-04](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
