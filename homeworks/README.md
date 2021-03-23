@@ -36,7 +36,17 @@
 
 
 ## Домашние задания по курсу «CI, мониторинг и управление конфигурациями»
-1. - [ ] [08-ansible-01](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
-2. - [ ] [08-ansible-02](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
-3. - [ ] [08-ansible-03](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
-4. - [ ] [08-anible-04](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/)
+1. - [ ] [08-ansible-01-base](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-01-base)
+2. - [ ] [08-ansible-02-playbook](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-02-playbook)
+3. - [ ] [08-ansible-03-role](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-03-role)
+4. - [ ] [08-ansible-04-module](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-04-module)
+5. - [ ] [09-ci-01-intro](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/09-ci-01-intro)
+6. - [ ] [09-ci-02-cicd](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/09-ci-02-cicd)
+7. - [ ] [09-ci-03-jenkins](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/09-ci-03-jenkins)
+8. - [ ] [09-ci-04-teamcity](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/09-ci-04-teamcity) 
+9. - [ ] [09-ci-05-gitlab](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/09-ci-05-gitlab)
+10. - [ ] [10-monitoring-01-base](https://github.com/netology-code/mnt-homeworks/tree/master/10-monitoring-01-base)
+11. - [ ] [10-monitoring-02-systems](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-02-systems)
+12. - [ ] [10-monitoring-03-grafana](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-03-grafana)
+14. - [ ] [10-monitoring-04-elk](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-04-elk)
+15. - [ ] [10-monitoring-05-sentry](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-05-sentry)
