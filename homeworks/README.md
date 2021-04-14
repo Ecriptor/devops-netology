@@ -36,7 +36,7 @@
 
 
 ## Домашние задания по курсу «CI, мониторинг и управление конфигурациями»
-1. - [ ] [08-ansible-01-base](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-01-base)
+1. - [x] [08-ansible-01-base](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-01-base)
 2. - [ ] [08-ansible-02-playbook](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-02-playbook)
 3. - [ ] [08-ansible-03-role](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-03-role)
 4. - [ ] [08-ansible-04-module](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/08-ansible-04-module)
@@ -50,3 +50,19 @@
 12. - [ ] [10-monitoring-03-grafana](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-03-grafana)
 14. - [ ] [10-monitoring-04-elk](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-04-elk)
 15. - [ ] [10-monitoring-05-sentry](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/10-monitoring-05-sentry)
+## Домашние задания по курсу «Администрирование и конфигурация Kubernetes»
+1. - [ ] [11-microservices-01-intro](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/11-microservices-01-intro)
+2. - [ ] [11-microservices-02-principles](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/11-microservices-02-principles)
+3. - [ ] [11-microservices-03-approaches](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/11-microservices-03-approaches)
+4. - [ ] [11-microservices-04-scaling](https://github.com/Ecriptor/devops-netology/tree/master/homeworks/11-microservices-04-scaling)
+
+5. [Компоненты Kubernetes]()
+6. [Развертывание кластера на собственных серверах, лекция 1]()
+7. [Развертывание кластера на собственных серверах, лекция 2]()
+8. [Сетевые решения CNI]()
+9. [Команды для работы с Kubernetes]()
+10. [Контейнеры, поды, deployment, statefulset, services, endpoints]()
+11. [Разделы и монтирование]()
+12. [Работа c Kubectl]()
+13. [Инструменты для упрощения написания конфигурационных файлов. Helm и Jsonnet]()
+14. [Поддержка нескольких окружений на примере Qbec]()
