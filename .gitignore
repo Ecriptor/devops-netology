@@ -3,3 +3,4 @@
 .git
 *.bak
 *.tmp
+.DS_Store
