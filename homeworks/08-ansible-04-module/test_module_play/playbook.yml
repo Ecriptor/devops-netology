@@ -1,0 +1,5 @@
+# ansible-playbook -i inventory/prod.yml --ask-pass --ask-become-pass playbook.yml
+---
+- hosts: all
+  roles:
+    - my_own_namespace.my_own_collection.my_own_role
