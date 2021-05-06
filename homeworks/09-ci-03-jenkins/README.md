@@ -3,4 +3,4 @@
 [ScriptedJenkinsfile](https://github.com/Ecriptor/jenkins/blob/main/ScriptedJenkinsfile)
 <br>
 <br>
-[!Screenshot](pipeline.png)
+![Screenshot](pipeline.png)
