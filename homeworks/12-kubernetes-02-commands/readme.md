@@ -10,7 +10,21 @@
  * количество реплик в deployment установлено в 2
  * наличие deployment можно проверить командой kubectl get deployment
  * наличие подов можно проверить командой kubectl get pods
-
+```
+root@kuber1:~# kubectl scale --replicas=2 deployment/hello-node
+deployment.apps/hello-node scaled
+root@kuber1:~# kubectl get services
+NAME         TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)          AGE
+hello-node   LoadBalancer   10.100.191.161   <pending>     8080:30824/TCP   12h
+kubernetes   ClusterIP      10.96.0.1        <none>        443/TCP          13h
+root@kuber1:~# kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+hello-node-7567d9fdc9-6n2jk   1/1     Running   0          7s
+hello-node-7567d9fdc9-rnf4c   1/1     Running   0          12h
+root@kuber1:~# kubectl get deployments
+NAME         READY   UP-TO-DATE   AVAILABLE   AGE
+hello-node   2/2     2            2           12h
+```
 
 ## Задание 2: Просмотр логов для разработки
 Разработчикам крайне важно получать обратную связь от штатно работающего приложения и, еще важнее, об ошибках в его работе. 
@@ -28,3 +42,14 @@
 Требования:
  * в deployment из задания 1 изменено количество реплик на 5
  * проверить что все поды перешли в статус running (kubectl get pods)
+```
+root@kuber1:~# kubectl scale --replicas=5 deployment/hello-node
+deployment.apps/hello-node scaled
+root@kuber1:~# kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+hello-node-7567d9fdc9-62h28   1/1     Running   0          2s
+hello-node-7567d9fdc9-66hbm   1/1     Running   0          2s
+hello-node-7567d9fdc9-6n2jk   1/1     Running   0          3m56s
+hello-node-7567d9fdc9-ds9hx   1/1     Running   0          2s
+hello-node-7567d9fdc9-rnf4c   1/1     Running   0          12h
+```
