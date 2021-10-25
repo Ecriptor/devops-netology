@@ -51,6 +51,41 @@ kubectl delete configmap nginx-config
 ```
 kubectl apply -f nginx-config.yml
 ```
+### Решение
+```shell
+root@master-0001:~# kubectl create configmap domain --from-literal=name=netology.ru
+configmap/domain created
+
+root@master-0001:~# kubectl get configmaps
+NAME               DATA   AGE
+domain             1      12s
+kube-root-ca.crt   1      20d
+nginx-config       1      9m
+
+root@master-0001:~# kubectl get configmaps domain -o json
+{
+    "apiVersion": "v1",
+    "data": {
+        "name": "netology.ru"
+    },
+    "kind": "ConfigMap",
+    "metadata": {
+        "creationTimestamp": "2021-10-25T18:17:39Z",
+        "name": "domain",
+        "namespace": "default",
+        "resourceVersion": "2652205",
+        "uid": "2863b1db-a8aa-4189-b1dd-537155b0330e"
+    }
+}
+root@master-0001:~# kubectl get configmaps -o json > configmaps.json
+root@master-0001:~# kubectl get configmap domain -o yaml > domain.yml
+
+root@master-0001:~# kubectl delete configmaps domain
+configmap "domain" deleted
+
+root@master-0001:~# kubectl apply -f domain.yml
+configmap/domain created
+```
 
 ## Задача 2 (*): Работа с картами конфигураций внутри модуля
 
