@@ -14,6 +14,8 @@ kubectl apply -f 14.5/example-security-context.yml
 kubectl logs security-context-demo
 uid=1000 gid=3000 groups=3000
 ```
+### Решение
+![img.png](img.png)
 
 ## Задача 2 (*): Рассмотрите пример 14.5/example-network-policy.yml
 
