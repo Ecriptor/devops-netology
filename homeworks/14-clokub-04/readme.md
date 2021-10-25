@@ -43,6 +43,37 @@ kubectl delete serviceaccount netology
 ```
 kubectl apply -f netology.yml
 ```
+### Решение
+```shell
+root@master-0001:~# kubectl create serviceaccount netology
+serviceaccount/netology created
+
+root@master-0001:~# kubectl get serviceaccounts
+NAME                                SECRETS   AGE
+default                             1         20d
+netology                            1         7s
+nfs-server-nfs-server-provisioner   1         5d23h
+
+root@master-0001:~# kubectl get serviceaccount netology -o yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2021-10-25T18:39:18Z"
+  name: netology
+  namespace: default
+  resourceVersion: "2654836"
+  uid: 4d55a30e-9dd4-4ab5-829a-f57fb6c411d4
+secrets:
+- name: netology-token-rwkkh
+
+root@master-0001:~# kubectl get serviceaccount netology -o yaml > netology.yml
+
+root@master-0001:~# kubectl delete serviceaccount netology
+serviceaccount "netology" deleted
+
+root@master-0001:~# kubectl apply -f netology.yml
+serviceaccount/netology created
+```
 
 ## Задача 2 (*): Работа с сервис-акаунтами внутри модуля
 
