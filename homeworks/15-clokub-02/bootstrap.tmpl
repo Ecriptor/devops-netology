@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo yum install httpd -y
+sudo service httpd start
+
+sudo wget https://${url}/${file} -P /var/www/html/
+sudo touch /var/www/html/index.html
+sudo chown ubuntu /var/www/html/index.html
+sudo echo "<html><h1>Ecriptor, Netology DZ 15-2</h1><h2>This is host: $(hostname)</h2><div><img src='${file}'></div></html>" > /var/www/html/index.html
